@@ -21,3 +21,4 @@
 - [РИ ОМС-Финанс (СМО)]( oms-fin-smo)
 - [ОМС-Финанс (ТФОМС)]( oms-fin-tfoms)
 - [ОМС-Финанс по установке](oms-fin-tfoms/oms-fin-po-ustanovke)
+- [Генератор выражений](generator-vyragenii)
