@@ -70,7 +70,7 @@
 
 По номеру электронной медицинской карты. Ввести 321
 
-<a name="pookie">![Images 176](/uploads/registr/images-176.png "Images 176")</a>
+![Images 176](/uploads/registr/images-176.png "Images 176")
 
 Нажать Enter.
 
