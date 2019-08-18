@@ -4,7 +4,7 @@
 # Составление и редактирование расписания
 Редактирование расписания: В меню регистратура выбираем «Расписание»
 
-<a name="pookie">![Images 161](/uploads/registr/images-161.png "Images 161")</a>
+![Images 161](/uploads/registr/images-161.png "Images 161")
 
 Далее выбираем нужное нам отделение, специалиста, дату. После этого нажимаем «ДОБАВИТЬ»
 
@@ -70,7 +70,7 @@
 
 По номеру электронной медицинской карты. Ввести 321
 
-![Images 176](/uploads/registr/images-176.png "Images 176")
+<a name="pookie">![Images 176](/uploads/registr/images-176.png "Images 176")</a>
 
 Нажать Enter.
 
