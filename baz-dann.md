@@ -9,7 +9,7 @@
 
 Для проведения переиндексации БД системы «Медэксперт – ТФОМС» необходимо выполнить следующую команду запроса в SQL сервере-New query(Новый запрос)
 
-USE IESDB
+```USE IESDB
 GO
 DECLARE @TableName VARCHAR(255)
 DECLARE @sql NVARCHAR(500)
@@ -28,8 +28,8 @@ FETCH NEXT FROM TableCursor INTO @TableName
 END
 CLOSE TableCursor
 DEALLOCATE TableCursor
-GO
---------
+GO```
+
 # 	Резервное копирование базы данных
 С целью восстановления сведений при невозможности исправления данных после аварийной ситуации(см.пункт3),необходимо заранее настроить в базе SQL  IESDB ежедневное резервное копирование БД.
 
