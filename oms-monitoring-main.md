@@ -1,4 +1,8 @@
-<!-- TITLE: Oms Monitoring Main -->
-<!-- SUBTITLE: A quick summary of Oms Monitoring Main -->
+<!-- TITLE: ОМС Мониторинг -->
+<!-- SUBTITLE: ОМС Финанс - ОМС Мониторинг -->
 
-# ОМС Мониторинг
+# О системе
+
+
+# Разделы
+
