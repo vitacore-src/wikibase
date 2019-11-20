@@ -67,20 +67,35 @@
  
  ```
 %%#xsl:group-by select='{*}' paths='{attr1};{attr2}'%%
-%%#xsl:for-each select='{*}'%%
-%%{#OrderNum#}%%; %%{#group-by-groups(0)}%%
-%%#xsl:for-each select='{*}'%%
-%%{#OrderNum#}%%; %%{#group-by-groups(0)}%%; %%{#group-by-groups(1)}%%
-%%#xsl:for-each select='{*}'%%
-<<тело отчета>> вывод атрибутов бизнес-объекта
+
+    %%#xsl:for-each select='{*}'%%
+
+            %%{#OrderNum#}%%; %%{#group-by-groups(0)}%%
+
+            %%#xsl:for-each select='{*}'%%
+
+                    %%{#OrderNum#}%%; %%{#group-by-groups(0)}%%; %%{#group-by-groups(1)}%%
+
+                    %%#xsl:for-each select='{*}'%%
+
+                            <<тело отчета>> вывод атрибутов бизнес-объекта
+
+                    %%#xsl:end%%
+
+                    %%{#group-by-count}%%; %%{#group-by-sum(путь)}%%
+
+            %%#xsl:end%%
+
+            %%{#group-by-count}%%; %%{#group-by-countAll}%%; %%{#group-by-sum(путь)}%%
+
+    %%#xsl:end%%
+
+    вывод суммарных данных по всем объектам
+
+    %%{#group-by-count}%%; %%{#group-by-countAll}%%; %%{#group-by-sum(путь)}%%
+
 %%#xsl:end%%
-%%{#group-by-count}%%; %%{#group-by-sum(путь)}%%
-%%#xsl:end%%
-%%{#group-by-count}%%; %%{#group-by-countAll}%%; %%{#group-by-sum(путь)}%%
-%%#xsl:end%%
-вывод суммарных данных по всем объектам
-%%{#group-by-count}%%; %%{#group-by-countAll}%%; %%{#group-by-sum(путь)}%%
-%%#xsl:end%% 
+ 
 ```
 
 Для MS Word XML Document шаблонов элемент groupby.
