@@ -68,31 +68,31 @@
 
 ```%%#xsl:group-by select='{*}' paths='{attr1};{attr2}'%%
 
-    %%#xsl:for-each select='{*}'%%
+%%#xsl:for-each select='{*}'%%
 
-            %%{#OrderNum#}%%; %%{#group-by-groups(0)}%%
+%%{#OrderNum#}%%; %%{#group-by-groups(0)}%%
 
-            %%#xsl:for-each select='{*}'%%
+%%#xsl:for-each select='{*}'%%
 
-                    %%{#OrderNum#}%%; %%{#group-by-groups(0)}%%; %%{#group-by-groups(1)}%%
+%%{#OrderNum#}%%; %%{#group-by-groups(0)}%%; %%{#group-by-groups(1)}%%
 
-                    %%#xsl:for-each select='{*}'%%
+%%#xsl:for-each select='{*}'%%
 
-                            <<тело отчета>> вывод атрибутов бизнес-объекта
+<<тело отчета>> вывод атрибутов бизнес-объекта
 
-                    %%#xsl:end%%
+%%#xsl:end%%
 
-                    %%{#group-by-count}%%; %%{#group-by-sum(путь)}%%
+%%{#group-by-count}%%; %%{#group-by-sum(путь)}%%
 
-            %%#xsl:end%%
+%%#xsl:end%%
+ 
+%%{#group-by-count}%%; %%{#group-by-countAll}%%; %%{#group-by-sum(путь)}%%
 
-            %%{#group-by-count}%%; %%{#group-by-countAll}%%; %%{#group-by-sum(путь)}%%
+%%#xsl:end%%
 
-    %%#xsl:end%%
+вывод суммарных данных по всем объектам
 
-    вывод суммарных данных по всем объектам
-
-    %%{#group-by-count}%%; %%{#group-by-countAll}%%; %%{#group-by-sum(путь)}%%
+%%{#group-by-count}%%; %%{#group-by-countAll}%%; %%{#group-by-sum(путь)}%%
 
 %%#xsl:end%%```
 
