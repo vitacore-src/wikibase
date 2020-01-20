@@ -43,3 +43,15 @@
 
 ![10](/uploads/0-vrach-naznach/10.png "10")
 
+Просмотреть
+
+![11](/uploads/0-vrach-naznach/11.png "11")
+
+И отменить 
+ 
+ ![12](/uploads/0-vrach-naznach/12.png "12")
+ 
+В осмотре врача Назначение отображается в таком виде
+
+![13](/uploads/0-vrach-naznach/13.png "13")
+
