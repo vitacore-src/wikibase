@@ -286,7 +286,7 @@
 
 **app_id:**	Server1
 **user_id:**	User
-**type:**RECIPE
+**type:** RECIPE
 **message_id:**	c0cb3412-140f-41c0-90a6-d79607217411
 **content_encoding:**	utf-8
 **content_type:**	Xml
