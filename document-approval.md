@@ -689,3 +689,43 @@ Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
 |StatusInfo	|string	|255	|О	|Статус рецепта в аптечной организации	|«Отсрочен»<br>«Необработан»|
 
 
+# Приложение 10
+
+**Пример передаваемого пакета cо статусом «Отсрочен» **
+
+
+```
+<?xmlversion="1.0"encoding="utf-8"?>
+<RECIPE>
+<header>
+<TYPE> Delayed</TYPE>
+<SIDE>4</SIDE>
+</header>
+<body>
+<Serial>92000</Serial>
+<Number>11</Number>
+<StatusInfo>Отсрочен</StatusInfo>
+</body>
+</RECIPE>
+```
+
+
+
+**Пример передаваемого пакета cо статусом «Не обработан»**
+
+
+```
+<?xmlversion="1.0"encoding="utf-8"?>
+<RECIPE>
+<header>
+<TYPE>Return</TYPE>
+<SIDE>4</SIDE>
+</header>
+<body>
+<Serial>92000</Serial>
+<Number>11</Number>
+<StatusInfo>Необработан</StatusInfo>
+</body>
+</RECIPE>
+```
+
