@@ -603,4 +603,71 @@ Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
 
 
 
+# Приложение 8
+**Пример передаваемого пакета по реализованному рецепту**
+
+```
+<?xmlversion="1.0"encoding="utf-8"?>
+<RECIPE>
+<header>
+<TYPE>Consume</TYPE>
+<SIDE>4</SIDE>
+</header>
+<body>
+<Serial>92000</Serial>
+<Number>61</Number>
+<StatusInfo>Обработан</StatusInfo>
+<RecipeVersion>101</RecipeVersion>
+<DocCode>1111111</DocCode>
+<MKBCode>E10</MKBCode>
+<Dose>250 мг №6</Dose>
+<UnitsCount>2.0000000000</UnitsCount>
+<RecipeDate>2019-07-25</RecipeDate>
+<ApplicationDate>2019-07-25</ApplicationDate>
+<IssueDate>2019-07-25</IssueDate>
+<LpuMain>0.0.000.0.0.00.00.0.0000</LpuMain>
+<Branch>0.0.000.0.0.00.00.0.0000</Branch>
+<BenefitViews>3</BenefitViews>
+<BenefitCode>27</BenefitCode>
+<MedicationForm>114</MedicationForm>
+<Discount>1</Discount>
+<Period>0</Period>
+<Pharmacy>1</Pharmacy>
+<VK>false</VK>
+<LastName>Пушкин</LastName>
+<FirstName>Александр</FirstName>
+<FatherName>Сергеевич</FatherName>
+<Birthday>1999-01-01</Birthday>
+<Sex>1</Sex>
+<Snils>688-212-748 34</Snils>
+<Palliativ>0</Palliativ>
+<Finance>2</Finance>
+<RecipeType>1</RecipeType>
+<ELEMENTS>
+<ELEMENT>
+<Amount>1.000000</Amount>
+<Price>150.00</Price>
+<LotNumber>11111</LotNumber>
+<Series>11120012020</Series>
+<Comment />
+<GoodsSupplier>Поставщик 2</GoodsSupplier>
+<Pharmacy>1</Pharmacy>
+<BillOfGoods>11</BillOfGoods>
+</ELEMENT>
+<ELEMENT>
+<Amount>1.000000</Amount>
+<Price>481.12</Price>
+<LotNumber>0</LotNumber>
+<Series>0</Series>
+<Comment />
+<GoodsSupplier>Поставщик1</GoodsSupplier>
+<Pharmacy>1</Pharmacy>
+<BillOfGoods>12</BillOfGoods>
+</ELEMENT>
+</ELEMENTS>
+</body>
+</RECIPE>
+```
+
+
 
