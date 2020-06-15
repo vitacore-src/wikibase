@@ -500,4 +500,19 @@ Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
 **Пример пакета с ошибкой, передаваемого из RDS**
 
 
+```
+<?xmlversion="1.0"encoding="utf-8"?>
+<ERROR>
+<header>
+<TYPE>RECIPE</TYPE>
+<QUEUE_NAME>AKUZ</QUEUE_NAME>
+<DESCRIPTION>
+<Отсутствует код аптеки в справочнике аптек: код 3>
+</DESCRIPTION>
+<bodyByteContent="False">
+<![CDATA[<?xml version="1.0" encoding="utf-8"?><RECIPE><header><TYPE>Release</TYPE><SIDE>1</SIDE></header><body><Serial>92000</Serial><Number>51</Number><RecipeVersion>11</RecipeVersion><DocCode>111</DocCode><MKBCode>H40</MKBCode><Dose>100МЕ/мл 3мл №5</Dose><UnitsCount>1.0000000000</UnitsCount><RecipeDate>2018-06-18</RecipeDate><LpuMain>160002</LpuMain><CMnn>100</CMnn><BenefitViews>3</BenefitViews><BenefitCode>38</BenefitCode><CTrn>13</CTrn><MedicationForm>463</MedicationForm><Discount>1</Discount><Period>0</Period><Pharmacy>3</Pharmacy><VK>false</VK><LastName>Тест</LastName><FirstName>Тест</FirstName><FatherName>Тест</FatherName><Birthday>1999-01-01</Birthday><Sex>1</Sex><KLADR>92000000000031300</KLADR><Signa>По 1 единицепрепарата 1 развденьвтечение30 дней.</Signa><Palliativ>0</Palliativ><Snils>688-212-748 34</Snils></body></RECIPE>]]></body>
+</header>
+</ERROR>
+```
+
 
