@@ -401,6 +401,29 @@ S – <элемент>; составной элемент, описываетс�
 
 **Пример передаваемого пакета по выписанному льготному рецепту с УКЭП**
 
+```
+<?xml version="1.0" encoding="utf-8"?>
+<RECIPE Id="SIGNED_BY_DOCTOR">
+<Security>
+<Signature>
+xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod 
+Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+<SignatureMethod
+Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+<Reference URI="#SIGNED_BY_DOCTOR">
+<Transforms>
+<Transform 
+Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+<DigestValue>KSDa0PpEsIIy/XQvuaQbhIDU2Cs=</DigestValue>
+</Reference>
+</SignedInfo>
+```
+
+
 
 
 
