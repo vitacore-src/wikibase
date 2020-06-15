@@ -531,5 +531,20 @@ Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
 |ID	|string	|255	|О	|Идентификатор синхронизации (связи объектов)	|**correlation_id, указанный в принятом пакете**|
 
 
+# Приложение 6
+**Пример ответа о получении пакета с идентификатором синхронизации ID**
+
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<RECIPE>
+<header>
+<TYPE>Accept</TYPE>
+<SIDE>4</SIDE>
+<ID>f809b1ef-15cc-4533-8e35-ac8c52ac917f</ID>
+</header>
+</RECIPE>
+```
+
 
 
