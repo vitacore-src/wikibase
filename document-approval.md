@@ -423,7 +423,73 @@ Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
 </SignedInfo>
 ```
 
+```
+<SignatureValue>brFLerVhdmmGbouPpyqxzZ3IHBBb2SLnLfSq0bN6r3S4aXvMNRo63uq7pOj1v6OlO3XYN0Bu+r6QkxJ70qvtZXUBwezJ4vDPaflU5XRDAEpoHxdpFH5sCKmOmJ7ncLL9Pv8ZzLU4q1ecEJ24KP+6QmRtz6hAXVc+S3vd1TLzzbssuSVcok5Qq0wgCL1t2QHl8GMNk6GpmqFjIhKXhVRwmh6ojIPHOV/QY/rauWCl5BLsqjrRzh1FymFIDi9LGbF8WT+6rXUC0k9oxW2llKCgL9CbT4soxCe8n6Al0GgSkQwZwpUr+PlQEDM3xotQqT11CWatJibCYXiltAnBRp/i/g==</SignatureValue>
+<KeyInfo>
+<X509Data>
+```
 
+
+```
+<X509Certificate>MIIDDDCCAfSgAwIBAgIQG4Q+lSEm3ZlBn64bSyzzoDANBgkqhkiG9w0BAQUFADATMREwDwYDVQQDEwhBbmF0b2xpeTAgFw0xODAyMjExMzQyMDRaGA8yMTE4MDEyODEzNDIwNFowEzERMA8GA1UEAxMIQW5hdG9saXkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDUS8A8h2PXzB27Nf6xtvt7PXSB5x9RfFqF4O5KdbMNsRDJKj7XG88jr8ee76gG58smbt0/dswxpzU+Ht0WQEXQF6DbUj3T71Yvq3cQYs0dhI4V+EIaD0M9vYVY/PVtaRJcCu1R7gPPC1U+nIFJy/l4CpplOFL4NsdM38Z2CdbxHkto3SMqsRykgAMEcgz3u87Kao7aJ5vxw4heE/kJH/nY3Jbn3xWJzk/qiMFQQZloCc8d4JEZm3owNTj+NFvWp6381jyX4U28WNGocz4jAZmZX9EzL7Jor6Le7uHhm9IoxyCDNb4esN4renpGnjuUoZ5pYjSgPF0JR5qwrMxMZSzVAgMBAAGjWjBYMBUGA1UdJQQOMAwGCisGAQQBgjcKAwQwNAYDVR0RBC0wK6ApBgorBgEEAYI3FAIDoBsMGUFuYXRvbGl5QGRldi52aXRhY29yZS5ydQAwCQYDVR0TBAIwADANBgkqhkiG9w0BAQUFAAOCAQEApCK0uhK2DmBVFbSMMAD592nXr7a30OQ/7/r+bs5pYubMnQQuTl6TfQNF4xgHItwuTV4+aqtGQP1fO2vmpAMr2QEiahCPSBNgAZc/iCFD/HiqGn46eVp4ltXvMCgWsil+suvVbd2bfz47PfxXBYRduCKfdozadgB1vXX0L5bLX9AMBpA1Dd1Az4pKOH85+e1Nkp7F/wFDez2VW9oeIMoK233T6RU9gNN+JQAxQZmK0txtq0Z1WNUjAwwpNeV2T4WyWiGcxYjshsCVcFsKc3/XRvOe2C8cx8FgrjH1n+h54DktyAVYYtCw+CpHqYGK/WGJKAz23yMm5tMexIqta0lEwQ==</X509Certificate>
+```
+
+
+```
+</X509Data>
+</KeyInfo>
+</Signature>
+</Security>
+<header>       
+<TYPE>Release</TYPE>
+<SIDE>1</SIDE>
+</header>
+<body>
+<Serial>92000</Serial>
+<Number>1</Number>
+<RecipeDate>2018-09-26</RecipeDate>
+<RecipeDateEnd>2018-10-25</RecipeDateEnd>
+<Period>0</Period>
+<Cito>false </Cito>
+<Statim>false </Cito>
+<RecipeVersion>11</RecipeVersion>
+<LpuMain>0.0.000.0.0.00.00.0.0000</LpuMain>
+<Branch>0.0.000.0.0.00.00.0.0000</Branch>
+<Okato>92000000000</Okato>
+<Ogrn>0000000000000</Ogrn>
+<DocCode>111</DocCode>
+<DocLastName>Фамилия врача</DocLastName>
+<DocFirstName>Имя врача</DocFirstName>
+<DocFatherName>Отчетсво врача</DocFatherName>
+<AcNumber>1</AcNumber>
+<LastName>Тестовый</LastName>
+<FirstName>Тест</FirstName>
+<FatherName>Тестович</FatherName>
+<Birthday>1999-01-01</Birthday>
+<Sex>1</Sex>
+<KLADR>92000000000031300</KLADR>
+<Address>420000,Республика Татарстан, г.Казань, ул.Цветочная, д 1</Address>
+<PolicyNumber >00000000000000</PolicyNumber>
+<BenefitViews>1</BenefitViews>
+<BenefitCode>081</BenefitCode>
+<Reference >false</Reference>
+<MKBCode>Z00.0</MKBCode>
+<Mnn>123</Mnn>
+<MnnName>Азитромицин</MnnName>
+<MedicationForm>114</MedicationForm>
+<MedicationFormName>таблетки</MedicationFormName>
+<Dose>250 мг №6</Dose>
+<UnitsCount>1.0000000000</UnitsCount>
+<Signa>По 1 единице препарата 1 раз в день в течение 30 дней.</Signa>
+<VK>false</VK>
+<Spec >false</Spec>
+<Finance >1</Finance>
+<Discount>1</Discount>
+<Pharmacy>1</Pharmacy>
+<RecipeType>1</RecipeType>
+</body>
+</RECIPE>
+```
 
 
 
