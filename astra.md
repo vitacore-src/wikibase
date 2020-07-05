@@ -91,4 +91,27 @@ tar xvzf wineprefix.tar.gz
 
 ## 5.2. Установка нового префикса wine
 
+Убедиться что wine корректно запускается
+
+```sh
+WINEARCH=win32 opt/wine-cpro/bin/winecfg
+```
+
+Установить необходимые пакеты для работы РМИС 
+
+```sh
+winerticks gecko
+winerticks dotnet20sp2
+winerticks ie6
+winerticks gdiplus
+```
+
+Установить офисный пакет для корректной работы отчетов. Это может быть Microsoft Office 2010 - 2016  либо Microsoft Office Viewers. Например,
+
+```sh
+winetricks office2013pro
+```
+
+
+
 
