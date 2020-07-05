@@ -40,6 +40,43 @@ sudo dpkg -i winetricks*.deb
 sudo apt -f install
 ```
 
+# 4. Установка шрифтов и драйвера принтера
+
+Перейдите в домашний каталог и распакуйте архив со шрифтами, необходимыми для работы РМИС
+
+```sh
+cd
+tar xvzf fonts.tar.gz
+```
+
+Удалите системный шрифт Tahoma (в случае если он установлен)
+
+```sh
+sudo find /usr -name "tahoma.ttf" -delete
+sudo find /usr -name "tahomabd.ttf" -delete
+sudo find /opt -name "tahoma.ttf" -delete
+sudo find /opt -name "tahomabd.ttf" -delete
+```
+
+Для корректной работы предпросмотра печати необходим псевдопринтер pdf (при отсутствии физического принтера)
+
+```sh
+sudo dpkg -i printer-driver-cups-pdf_2.6.1-22_amd64.deb
+sudo apt -f install
+```
+
+## 5. Установка префикса wine
+
+В сессии, из которой запускаем wine нужно определить переменные WINE и WINEARCH. Для постоянного эффекта нужно добывить указанные переменные в файл ~/.bashrc 
+
+```sh
+export WINE=/opt/wine-cpro/bin/wine
+export WINEARCH=win32
+
+echo "export WINE=/opt/wine-cpro/bin/wine" >> ~/.bashrc
+export "WINEARCH=win32" >> ~/.bashrc
+```
+
 
 
 
