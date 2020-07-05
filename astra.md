@@ -94,7 +94,7 @@ tar xvzf wineprefix.tar.gz
 Убедиться что wine корректно запускается
 
 ```sh
-WINEARCH=win32 opt/wine-cpro/bin/winecfg
+WINEARCH=win32 /opt/wine-cpro/bin/winecfg
 ```
 
 Установить необходимые пакеты для работы РМИС 
