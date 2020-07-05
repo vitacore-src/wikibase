@@ -15,3 +15,12 @@ tar xvzf CPRO-4R4-Astra-ready-32bit-ver2.tar.gz
 cd CPRO-4R4-Astra-ready-32bit-ver2
 ./astra-install.sh
 ```
+
+
+При возникновении ошибок установки пакетов может потребоваться исправление командой
+
+```sh
+sudo apt -f install
+```
+
+
