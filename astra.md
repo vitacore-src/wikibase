@@ -74,7 +74,7 @@ export WINE=/opt/wine-cpro/bin/wine
 export WINEARCH=win32
 
 echo "export WINE=/opt/wine-cpro/bin/wine" >> ~/.bashrc
-export "WINEARCH=win32" >> ~/.bashrc
+echo "export WINEARCH=win32" >> ~/.bashrc
 ```
 
 
